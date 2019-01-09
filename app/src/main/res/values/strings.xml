@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">ICU BD</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome To ICU BD</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_about">ABOUT</string>
+    <string name="name">Fullname</string>
+    <string name="location">Location:</string>
+    <string name="contact">Contact:</string>
+    <string name="cost">Cost:</string>
+    <string name="btn_icu">ICU</string>
+    <string name="btn_ccu">CCU</string>
+    <string name="btn_nicu">NICU</string>
+    <string name="btn_call">Call</string>
+    <string name="proceed_to_list">Proceed to list</string>
+    <string name="btn_booking">Online Booking</string>
+    <string name="before_icu">**Before you see the list of available ICUs,
+    We want to give you some general information about ICU.
+    </string>
+    <string name="icu_info">Intensive care unit (ICU), also known as an intensive therapy unit or intensive treatment unit (ITU),is a special department of a hospital or health care facility that provides intensive treatment medicine.
+
+        \n Intensive care units cater to patients with severe and life-threatening illnesses and injuries,
+        which require constant, close monitoring and support from specialist
+        equipment and medications in order to ensure normal bodily functions. \n\n
+
+
+Equipment and systems: \n\n
+Monitors\n
+-Cardiac or heart monitors\n
+-Pulse oximeter\n
+-Swan-Ganz catheter\n
+-Arterial lines (a-lines)\n
+Tubes and Catheters\n
+-Central venous catheter (CVC)\n
+-Intravenous (IV)\n
+-Chest tubes\n
+-Urinary catheter\n
+-Endotracheal tubes\n
+Life Supportive Devices\n
+-Ventilator\n
+-Nutrition\n\n
+        Picture of an ICU is given below.\n
+
+</string>
+    <string name="text_available">Number of available beds :</string>
+    <string name="bottomLine">___________________________________________</string>
+    <string name="aboutText">ICU BD is a platform where you can search for available ICU/CCU/NICU with just the click of a button.\n\nOur enlisted hospitals always update their information in our website and it is avail able in this app in real time. \n\nThis app is made to help patients who needs emergency care in critical conditions. This app will save your time in searching for an ICU/CCU/NICU and a patients valuable life.
+    </string>
+
+    <string name="af_heading">
+        -----------------------------------------------------------------------------\n\n
+        You need to fill up this form in order to be able to place your request. \n\n
+    *** Remember that specialist doctors from the hospital will evaluate your condition and confirm your booking. \n\n
+        If doctors think that this patient is not eligible for getting admission in ICU then they will discard this application. \n\n
+        A confirmation mail will be sent to you after evaluation.\n\n
+        -----------------------------------------------------------------------------
+    </string>
+
+    <string name="before_ccu">
+        **Before you see the list of available CCUs,
+    We want to give you some general information about CCU.
+    </string>
+
+    <string name="ccu_info">
+        A coronary care unit (CCU) or cardiac intensive care unit (CICU) is a hospital ward specialized in the care of patients with
+        heart attacks, unstable angina, cardiac dysrhythmia and (in practice) various other cardiac conditions that require continuous monitoring and treatment.\n\n
+        Equipment and systems: \n\n
+        - Cardiac Monitors\n
+        -Cardiac Ultrasound Machines\n
+        -Vascular Ultrasound Machines\n
+        -EKG Machines\n
+        -Defibrillators\n
+        -Intra-Aortic Balloon Pumps\n
+        -Heart-Lung Bypass Machines\n
+        -Stress Test System\n\n
+        Picture of a CCU is given below.
+
+    </string>
+
+
+    <string name="nicu_info">
+        A neonatal intensive care unit (NICU),
+also known as an intensive care nursery (ICN),
+is an intensive care unit specializing in the care of ill or premature newborn infants.\n
+Neonatal refers to the first 28 days of life.\n
+Neonatal care, as known as specialized nurseries or intensive care, has been around since the 1960s. \n\n
+Equipment and systems: \n\n
+-Heart or cardiorespiratory monitor\n
+-Blood pressure monitor\n
+-Temperature probe\n
+-Pulse oximeter\n
+-Portable X-ray machines\n
+-Computed tomography (also called CT or CAT scan)\n
+-Magnetic resonance imaging (MRI)\n
+-Endotracheal tube (ET)\n
+-Continuous positive airway pressure (CPAP)\n
+-Extracorporeal membrane oxygenation (ECMO)\n
+-Incubator\n\n
+        Picture of a NICU is given below.
+
+    </string>
+
+    <string name="before_nicu">
+        **Before you see the list of available NICUs,
+    We want to give you some general information about NICU.
+    </string>
+
+    <string name="af">APPLICATION FORM</string>
+</resources>

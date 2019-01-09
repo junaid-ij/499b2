@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.junaid.apitestcopy.activity.MainActivity">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+    <!--android:id="@+id/relativeLayout">-->
+
+    <!--</RelativeLayout>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/welcome"
+        android:textSize="20dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="Name"
+        android:textColor="@color/lbl_name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:text="Email Address"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:layout_toEndOf="@+id/btnNICU"
+        android:layout_toRightOf="@+id/btnNICU"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLogout"
+        android:layout_alignBottom="@+id/btnLogout"
+        android:layout_toLeftOf="@+id/btnNICU"
+        android:layout_toStartOf="@+id/btnNICU"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_about"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnICU"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_icu"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:onClick="openICUActivity"/>
+
+    <Button
+        android:id="@+id/btnCCU"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnICU"
+        android:layout_alignStart="@+id/btnICU"
+        android:layout_below="@+id/btnICU"
+        android:layout_marginTop="21dp"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_ccu"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:onClick="openCCUActivity"/>
+
+    <Button
+        android:id="@+id/btnNICU"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCCU"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_nicu"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:onClick="openNICUActivity"/>
+
+    <Button
+        android:id="@+id/btnNotification"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnAbout"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Notification"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
